@@ -1,2 +1,2 @@
 # springboot-developer
-📚 &lt;스프링부트 3 백엔드 개발자 되기> 예제코드  Resources
+📚 도메인 주도 설계(DDD) 아키텍처 공부를 위한 예제 
