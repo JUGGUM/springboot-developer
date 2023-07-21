@@ -1,7 +1,7 @@
 package me.gayoungkim.springbootdeveloper.Test;
 
-import me.gayoungkim.springbootdeveloper.Member.Member;
-import me.gayoungkim.springbootdeveloper.Member.MemberRepository;
+import me.gayoungkim.springbootdeveloper.member.domain.Member;
+import me.gayoungkim.springbootdeveloper.member.repository.MemberRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -17,8 +17,6 @@ import org.springframework.web.context.WebApplicationContext;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 @AutoConfigureMockMvc
